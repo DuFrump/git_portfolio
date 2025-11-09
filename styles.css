@@ -1,0 +1,169 @@
+/* styles.css */
+
+/* 1. 기본 설정 및 초기화 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* 배경색을 약간 밝게 */
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px; /* 너무 넓어지지 않도록 최대 폭 설정 */
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #007BFF; /* 주요 제목 색상 */
+    font-weight: 600;
+}
+
+/* 2. 헤더 (Header) 스타일 */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    position: sticky; /* 스크롤해도 상단에 고정 */
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.8em;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #FFC107; /* 호버 시 색상 변경 */
+}
+
+/* 3. 섹션 (Section) 스타일 */
+section {
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+/* 4. About 섹션 */
+.summary {
+    font-style: italic;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+/* 5. 기술 스택 섹션 */
+.skill-category {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-left: 5px solid #007BFF;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.skill-category h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.skill-category ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* 6. 프로젝트 섹션 */
+.project-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-item h3 {
+    margin-top: 0;
+    color: #0056b3;
+    font-size: 1.5em;
+}
+
+.role {
+    font-weight: 500;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.project-details {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+.project-link {
+    display: inline-block;
+    background-color: #28a745; /* 링크 버튼 색상 */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #218838;
+}
+
+/* 7. 푸터 (Footer) */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* 수평선 스타일 */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 40px 0;
+}
